@@ -1,0 +1,252 @@
+{
+    "!EP (EXE Pack)": {
+        "peid": "EXE Pack",
+        "die": "EXE Pack"
+    },
+    "1337 Exe Crypter": {
+        "peid": "EXE Cryptor",
+        "die": "EXECryptor"
+    },
+    "ACProtect": {
+        "peid": "ACProtect",
+        "die": "ACProtect"
+    },
+    "AlexProt": {
+        "peid": "Alex Protector",
+        "die": "Alex Protector"
+    },
+    "AntiDote": {
+        "peid": "AntiDote",
+        "die": "AntiDote"
+    },
+    "Armadillo": {
+        "peid": "Armadillo",
+        "die": "Armadillo"
+    },
+    "ASProtect": {
+        "peid": "ASProtect",
+        "die": "ASProtect"
+    },
+    "BamBam": {
+        "peid": "BamBam"
+    },
+    "Berio": {
+        "peid": "Berio",
+        "die": "Berio"
+    },
+    "CDS SS": {
+        "peid": "CDS SS",
+        "die": "CDS SS"
+    },
+    "CExe": {
+        "peid": "CExe",
+        "die": "CExe"
+    },
+    "CrypToCrack Pe Protector": {
+        "peid": "CrypToCracks Pe Protector"
+    },
+    "DotFix NiceProtect": {
+        "peid": "DotFix Nice Protect"
+    },
+    "DragonArmour": {
+        "peid": "DragonArmor",
+        "die": "DragonArmor"
+    },
+    "ExeShield": {
+        "peid": "Exe Shield",
+        "die": "Exe Shield"
+    },
+    "FishPE Packer": {
+        "peid": "Fish PE Packer"
+    },
+    "Free Joiner": {
+        "peid": "FreeJoiner"
+    },
+    "G!X Protector": {
+        "peid": "GX Protector"
+    },
+    "Hmimys's": {
+        "peid": "Hmimyss",
+        "die": "Hmimys"
+    },
+    "Hide & Protect": {
+        "peid": "HideProtect",
+        "die": "Hide&Protect"
+    },
+    "MoleBox": {
+        "peid": "MoleBox",
+        "die": "MoleBox"
+    },
+    "Mucki's": {
+        "peid": "muckis",
+        "die": "muckis"
+    },
+    "NoodleCrpyt": {
+        "peid": "NoodleCrypt",
+        "die": "NoodleCrypt"
+    },
+    "NoobyProtect": {
+        "peid": "NoobyProtect",
+        "die": "NoobyProtect"
+    },
+    "p0ke Scrambler": {
+        "peid": "pscrambler"
+    },
+    "Password Protect": {
+        "peid": "Password Protect"
+    },
+    "PcGuard": {
+        "peid": "Pc Guard",
+        "die": "Pc Guard"
+    },
+    "PE-Armour": {
+        "peid": "PE Armor",
+        "die": "PE-Armor"
+    },
+    "PEDiminisher": {
+        "peid": "PE Diminisher",
+        "die": "PE Diminisher"
+    },
+    "PC Shriner": {
+        "peid": "PC Shrink",
+        "die": "PCShrink"
+    },
+    "RCryptor": {
+        "peid": "RCryptor",
+        "die": "RCryptor"
+    },
+    "PeSpin": {
+        "peid": "PeSpin",
+        "die": "PeSpin"
+    },
+    "RLPack": {
+        "peid": "RLPack",
+        "die": "RLPack"
+    },
+    "Private EXE Protector": {
+        "peid": "Private EXE"
+    },
+    "ReCrypt": {
+        "peid": "Re Crypt"
+    },
+    "Safeguard": {
+        "peid": "Safeguard"
+    },
+    "Shergerd Exe Protector": {
+        "peid": "Shegerd"
+    },
+    "SkD Undetectabler": {
+        "peid": "SkD Undetectabler"
+    },
+    "Software Compress": {
+        "peid": "Software Compress",
+        "die": "Software Compress"
+    },
+    "Ste@lth PE": {
+        "peid": "Stelth PE"
+    },
+    "Themida": {
+        "peid": "Themida"
+    },
+    "Thinstall": {
+        "peid": "Thinstall",
+        "die": "Thinstall"
+    },
+    "UnOpix Scrambler": {
+        "peid": "UnOpix"
+    },
+    "uPack Mutanter": {
+        "peid": "uPack",
+        "die": "uPack"
+    },
+    "UPX-Scrambler": {
+        "peid": "UPX scrambler",
+        "die": "UPX scrambler"
+    },
+    "vfp&exeNc": {
+        "peid": "vfpexeNc"
+    },
+    "WinKrypt": {
+        "peid": "WinKript",
+        "die": "WinKript"
+    },
+    "WinUpack": {
+        "peid": "Upack",
+        "die": "Upack"
+    },
+    "ANDpakk": {
+        "die": "AnDpakk"
+    },
+    "AnslymPacker": {
+        "die": "Anslym Packer"
+    },
+    "AntiCrack": {
+        "die": "ACProtect"
+    },
+    "AR Crypt": {
+        "die": "AR Crypt"
+    },
+    "Ass Crypter": {
+        "die": "Ass-Crypter"
+    },
+    "BeRoEXEPacker": {
+        "die": "BeRo"
+    },
+    "DNGuard": {
+        "die": "DNGuard"
+    },
+    "EmbedPE": {
+        "die": "Embed PE"
+    },
+    "FatMike_Solution1": {
+        "die": "FatMike"
+    },
+    "Goats PE Mutilator": {
+        "die": "Goat's PE Mutilator"
+    },
+    "HaspSRM": {
+        "die": "Hasp HL/SRM"
+    },
+    "Hmimys Packer": {
+        "die": "Hmimys PE-Pack"
+    },
+    "JDProtect": {
+        "die": "JDPack"
+    },
+    "MPress": {
+        "die": "Mpress"
+    },
+    "Official ExeCryptor": {
+        "die": "ExeCryptor"
+    },
+    "Pc Guard": {
+        "die": "Pc Guard"
+    },
+    "PE Lock NT": {
+        "die": "PELOCKnt"
+    },
+    "PE Pack": {
+        "die": "PE-PACK"
+    },
+    "PECompact": {
+        "die": "PeCompact"
+    },
+    "Phoenix": {
+        "die": "Phoenix"
+    },
+    "Skater": {
+        "die": "Skater"
+    },
+    "UPXMutanter": {
+        "die": "UPX"
+    },
+    "Yoda Crypter": {
+        "die": "Yoda's Crypter"
+    },
+    "Yoda Protector": {
+        "die": "Yoda's Protector"
+    },
+    "ZProtect": {
+        "die": "ZProtect"
+    }
+}

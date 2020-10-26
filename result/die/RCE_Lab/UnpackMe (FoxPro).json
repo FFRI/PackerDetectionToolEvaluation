@@ -1,0 +1,164 @@
+[
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
+        "name": "UnPackMe_Original.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Fox Pro",
+                    "options": "-",
+                    "string": "library: Fox Pro(7.0)[-]",
+                    "type": "library",
+                    "version": "7.0"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(7.0*)[EXE32]",
+                    "type": "linker",
+                    "version": "7.0*"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "vfp&exeNc"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
+        "name": "UnPackMe_vfp&exeNc6.20.intensityi.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Borland Delphi",
+                    "options": "-",
+                    "string": "compiler: Borland Delphi(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(2.25)[EXE32]",
+                    "type": "linker",
+                    "version": "2.25"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "vfp&exeNc"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
+        "name": "UnPackMe_vfp&exeNc6.20.intensityii+encrypt.compression.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Borland Delphi",
+                    "options": "-",
+                    "string": "compiler: Borland Delphi(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(2.25)[EXE32]",
+                    "type": "linker",
+                    "version": "2.25"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "vfp&exeNc"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
+        "name": "UnPackMe_vfp&exeNc6.20.intensityii.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Borland Delphi",
+                    "options": "-",
+                    "string": "compiler: Borland Delphi(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(2.25)[EXE32]",
+                    "type": "linker",
+                    "version": "2.25"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "vfp&exeNc"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
+        "name": "UnPackMe_vfp&exeNc6.20.intensityi+encrypt.compression.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Borland Delphi",
+                    "options": "-",
+                    "string": "compiler: Borland Delphi(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(2.25)[EXE32]",
+                    "type": "linker",
+                    "version": "2.25"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "vfp&exeNc"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (FoxPro)/KONxiSE 1.0/KONxiSE 1.0",
+        "name": "UnPackMe_KONxiSE 1.0.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Fox Pro",
+                    "options": "-",
+                    "string": "library: Fox Pro(7.0)[-]",
+                    "type": "library",
+                    "version": "7.0"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(7.0*)[EXE32]",
+                    "type": "linker",
+                    "version": "7.0*"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "KONxiSE"
+        ]
+    }
+]

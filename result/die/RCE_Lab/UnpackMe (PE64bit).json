@@ -1,0 +1,502 @@
+[
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/PeSpin x64 1.1/PeSpin x64 1.1",
+        "name": "UnPackMe_PeSpin 1.1.b.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "PESpin",
+                    "options": "-",
+                    "string": "protector: PESpin(1.2x)[-]",
+                    "type": "protector",
+                    "version": "1.2x"
+                },
+                {
+                    "name": "Polink",
+                    "options": "EXE64",
+                    "string": "linker: Polink(2.50*)[EXE64]",
+                    "type": "linker",
+                    "version": "2.50*"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "PeSpin"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/PeSpin x64 1.1/PeSpin x64 1.1",
+        "name": "UnPackMe_PeSpin 1.1.c.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "PESpin",
+                    "options": "-",
+                    "string": "protector: PESpin(1.2x)[-]",
+                    "type": "protector",
+                    "version": "1.2x"
+                },
+                {
+                    "name": "Polink",
+                    "options": "EXE64",
+                    "string": "linker: Polink(2.50*)[EXE64]",
+                    "type": "linker",
+                    "version": "2.50*"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "PeSpin"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/PeSpin x64 1.1/PeSpin x64 1.1",
+        "name": "UnPackMe_PeSpin 1.1.d.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "PESpin",
+                    "options": "-",
+                    "string": "protector: PESpin(1.2x)[-]",
+                    "type": "protector",
+                    "version": "1.2x"
+                },
+                {
+                    "name": "Polink",
+                    "options": "EXE64",
+                    "string": "linker: Polink(2.50*)[EXE64]",
+                    "type": "linker",
+                    "version": "2.50*"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "PeSpin"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/PeSpin x64 1.1/PeSpin x64 1.1",
+        "name": "UnPackMe_PeSpin 1.1.a.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "PESpin",
+                    "options": "-",
+                    "string": "protector: PESpin(1.2x)[-]",
+                    "type": "protector",
+                    "version": "1.2x"
+                },
+                {
+                    "name": "Polink",
+                    "options": "EXE64",
+                    "string": "linker: Polink(2.50*)[EXE64]",
+                    "type": "linker",
+                    "version": "2.50*"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "PeSpin"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/PeSpin x64 0.3a/PeSpin x64 0.3a",
+        "name": "UnPackMe_PeSpin x64 0.3a.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "PESpin",
+                    "options": "-",
+                    "string": "protector: PESpin(1.2x)[-]",
+                    "type": "protector",
+                    "version": "1.2x"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(0.38)[EXE64]",
+                    "type": "linker",
+                    "version": "0.38"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "PeSpin"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/lARP64 Pro 1.0.3_update/lARP64 Pro 1.0.3_update",
+        "name": "lARP64Pro Unpackme regged.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(8.0)[EXE64]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": false,
+        "labels": [
+            "lARP64 Pro"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/lARP64 Pro 1.0.3_update/lARP64 Pro 1.0.3_update",
+        "name": "lARP64Pro Unpackme unregged.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(8.0)[EXE64]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": false,
+        "labels": [
+            "lARP64 Pro"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01 dotNET.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.01)[-]",
+                    "type": "packer",
+                    "version": "2.01"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32,admin",
+                    "string": "linker: unknown(8.0)[EXE32,admin]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01 x64.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.01)[-]",
+                    "type": "packer",
+                    "version": "2.01"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(0.38)[EXE64]",
+                    "type": "linker",
+                    "version": "0.38"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.01)[-]",
+                    "type": "packer",
+                    "version": "2.01"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(5.0)[EXE32]",
+                    "type": "linker",
+                    "version": "5.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 1.07 x64/MPress 1.07 x64",
+        "name": "UnPackMe_MPRESS 1.07 x64.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(1.07)[-]",
+                    "type": "packer",
+                    "version": "1.07"
+                },
+                {
+                    "name": "MFC",
+                    "options": "-",
+                    "string": "library: MFC(8.0)[-]",
+                    "type": "library",
+                    "version": "8.0"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(8.0)[EXE64]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/NsPack 3.6/NsPack 3.6",
+        "name": "1NvQTwk.dll",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Microsoft Visual C/C++",
+                    "options": "-",
+                    "string": "compiler: Microsoft Visual C/C++(2002)[-]",
+                    "type": "compiler",
+                    "version": "2002"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "DRIVER64",
+                    "string": "linker: Microsoft Linker(7.0*)[DRIVER64]",
+                    "type": "linker",
+                    "version": "7.0*"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": false,
+        "labels": [
+            "NsPack"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/NsPack 3.6/NsPack 3.6",
+        "name": "GlobalPtr.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "NsPacK",
+                    "options": "-",
+                    "string": "packer: NsPacK(3.x)[-]",
+                    "type": "packer",
+                    "version": "3.x"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE64",
+                    "string": "linker: Microsoft Linker(7.0*)[EXE64]",
+                    "type": "linker",
+                    "version": "7.0*"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "NsPack"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/PeSpin Pre-Alpha x64/PeSpin Pre-Alpha x64",
+        "name": "UnPackMe_PeSpin Pre-Alpha x64.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "PESpin",
+                    "options": "-",
+                    "string": "protector: PESpin(1.2x)[-]",
+                    "type": "protector",
+                    "version": "1.2x"
+                },
+                {
+                    "name": "Microsoft Visual C/C++",
+                    "options": "-",
+                    "string": "compiler: Microsoft Visual C/C++(2005)[-]",
+                    "type": "compiler",
+                    "version": "2005"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE64",
+                    "string": "linker: Microsoft Linker(8.0 or 11.0)[EXE64]",
+                    "type": "linker",
+                    "version": "8.0 or 11.0"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "PeSpin"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 2.05/MPress 2.05",
+        "name": "UnPackMe_MPress 2.05 dotNET.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.05)[-]",
+                    "type": "packer",
+                    "version": "2.05"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32,admin",
+                    "string": "linker: unknown(8.0)[EXE32,admin]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 2.05/MPress 2.05",
+        "name": "UnPackMe_MPress 2.05.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.05)[-]",
+                    "type": "packer",
+                    "version": "2.05"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(5.0)[EXE32]",
+                    "type": "linker",
+                    "version": "5.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 2.05/MPress 2.05",
+        "name": "UnPackMe_MPress 2.05 x64.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.05)[-]",
+                    "type": "packer",
+                    "version": "2.05"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(0.38)[EXE64]",
+                    "type": "linker",
+                    "version": "0.38"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (PE64bit)/MPress 2.12 x64/MPress 2.12",
+        "name": "UnPackMe_MPress 2.12 x64.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.12)[-]",
+                    "type": "packer",
+                    "version": "2.12"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(2.50)[EXE64]",
+                    "type": "linker",
+                    "version": "2.50"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    }
+]

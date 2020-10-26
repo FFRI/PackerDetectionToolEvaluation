@@ -1,0 +1,56 @@
+[
+    {
+        "path": "/home/ffri/dataset/UnpackMe/Unpackme Themida 1.9.1.0/00007- UnPackMe_Themida 1.9.1.0.i  +dll tuts4you",
+        "name": "tuts4you1.dll",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Themida/Winlicense",
+                    "options": "compressed engine",
+                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
+                    "type": "protector",
+                    "version": "1.8.X-1.9.X"
+                },
+                {
+                    "name": "unknown",
+                    "options": "DRIVER32",
+                    "string": "linker: unknown(1.0)[DRIVER32]",
+                    "type": "linker",
+                    "version": "1.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "00007- UnPackMe_Themida 1.9.1.0.i  +dll"
+        ]
+    },
+    {
+        "path": "/home/ffri/dataset/UnpackMe/Unpackme Themida 1.9.1.0/00007- UnPackMe_Themida 1.9.1.0.i  +dll tuts4you",
+        "name": "UnPackMe_Themida 1.9.1.0.i.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Themida/Winlicense",
+                    "options": "compressed engine",
+                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
+                    "type": "protector",
+                    "version": "1.8.X-1.9.X"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(5.0)[EXE32]",
+                    "type": "linker",
+                    "version": "5.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "00007- UnPackMe_Themida 1.9.1.0.i  +dll"
+        ]
+    }
+]
