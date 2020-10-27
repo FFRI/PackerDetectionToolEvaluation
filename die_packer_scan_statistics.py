@@ -41,10 +41,10 @@ def parse_jsons(path):
                 detectable_count += 1
 
         print("- " + name)
-        print("  - 全体数: ", count)
-        print("  - 検知成功: ", detectable_count)
-        print("  - パッカーなし: ", none_count)
-        print("  - 複数パッカー検出: ", many_packer_count)
+        print("  - Total: ", count)
+        print("  - Detected as packed: ", detectable_count)
+        print("  - Detected as no packer: ", none_count)
+        print("  - Excessively detected as multiple packers: ", many_packer_count)
 
 
 def main():

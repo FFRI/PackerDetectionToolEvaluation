@@ -79,15 +79,15 @@ $ python peid_packer_scan.py
 $ python peid_packer_scan_statistics.py
 PackingData
 - Notpacked.json
-  - 全体数:  458
-  - 検知成功:  0
-  - パッカーなし:  204
-  - 複数パッカー検出:  238
+  - Total:  458
+  - Detected as packed:  0
+  - Detected as no packer:  204
+  - Excessively detected as multiple packers:  238
 - PackingData.json
-  - 全体数:  2469
-  - 検知成功:  1936
-  - パッカーなし:  137
-  - 複数パッカー検出:  1815
+  - Total:  2469
+  - Detected as packed:  1936
+  - Detected as no packer:  137
+  - Excessively detected as multiple packers:  1815
 ...
 ```
 
@@ -101,15 +101,15 @@ $ python die_packer_scan.py
 $ python die_packer_scan_statistics.py
 PackingData
 - Notpacked.json
-  - 全体数:  458
-  - 検知成功:  0
-  - パッカーなし:  455
-  - 複数パッカー検出:  1
+  - Total:  458
+  - Detected as packed:  0
+  - Detected as no packer:  455
+  - Excessively detected as multiple packers:  1
 - PackingData.json
-  - 全体数:  2469
-  - 検知成功:  2176
-  - パッカーなし:  160
-  - 複数パッカー検出:  135
+  - Total:  2469
+  - Detected as packed:  2176
+  - Detected as no packer:  160
+  - Excessively detected as multiple packers:  135
 ...
 ```
 
