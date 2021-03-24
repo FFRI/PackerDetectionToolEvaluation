@@ -3,10 +3,10 @@ Author of this code work, Tsubasa Kuwabara. c FFRI Security, Inc. 2020
 """
 
 import subprocess
-import os
 import shutil
+import os
 import json
-from util import *
+from util import extract_file_recursive
 
 CWD_DIR = os.getcwd()
 
@@ -18,7 +18,7 @@ def is_die_packingdata_detectable(path, result):
     label = label.replace("Yoda`s Crpyter", "Yoda's Crypter")
 
     if "detects" not in result:
-        return (False, [label])
+        return False, [label]
 
     detects = result["detects"]
     protector_list = []
@@ -26,13 +26,19 @@ def is_die_packingdata_detectable(path, result):
         if (
             "type" not in i
             or "string" not in i
-            or (i["type"] != "protector" and i["type"] != "packer")
+            or (
+                i["type"] != "protector"
+                and i["type"] != "packer"
+                and i["type"] != "installer"
+            )
         ):
             continue
+        if "Nullsoft Scriptable Install System" in i["string"]:
+            i["string"] += "NSIS"
         protector_list.append(i["string"])
 
     if len(protector_list) <= 0:
-        return (False, [label])
+        return False, [label]
 
     detectable_bool = False
     for protector in protector_list:
@@ -40,7 +46,7 @@ def is_die_packingdata_detectable(path, result):
             detectable_bool = True
             break
 
-    return (detectable_bool, [label])
+    return detectable_bool, [label]
 
 
 def is_die_rcelab_detectable(path, result):
@@ -49,7 +55,6 @@ def is_die_rcelab_detectable(path, result):
         label = "ZProtect"
     label = label.replace("dot", ".")
 
-    json_data = {}
     with open(os.path.join(CWD_DIR, "rce_label_convert.json"), "r") as f:
         json_data = json.load(f)
 
@@ -80,7 +85,7 @@ def is_die_rcelab_detectable(path, result):
         protector_list.append(i["string"])
 
     if len(protector_list) <= 0:
-        return (False, [label])
+        return False, [label]
 
     detectable_bool = False
     for protector in protector_list:
@@ -88,7 +93,7 @@ def is_die_rcelab_detectable(path, result):
             detectable_bool = True
             break
 
-    return (detectable_bool, [label])
+    return detectable_bool, [label]
 
 
 def is_detectable(path, dataset_name, result):
@@ -97,7 +102,7 @@ def is_detectable(path, dataset_name, result):
     elif dataset_name == "RCE_Lab":
         return is_die_rcelab_detectable(path, result)
     else:
-        return (False, [])
+        return False, []
 
 
 def scan_file_recursive(path, dataset_name, json_result):

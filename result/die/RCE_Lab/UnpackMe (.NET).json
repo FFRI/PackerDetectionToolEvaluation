@@ -1,591 +1,6 @@
 [
     {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Skater .NET Obfuscator Light 2.6/Skater .NET Obfuscator Light 2.6",
-        "name": "UnPackMe_Skater .NET Obfuscator 2.6.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Skater",
-                    "options": "-",
-                    "string": "protector: Skater(-)[-]",
-                    "type": "protector",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "VB.NET",
-                    "options": "-",
-                    "string": "compiler: VB.NET(-)[-]",
-                    "type": "compiler",
-                    "version": "-"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Skater"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.12/MPress 2.12",
-        "name": "UnPackMe_MPress 2.12 .NET.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(2.12)[-]",
-                    "type": "packer",
-                    "version": "2.12"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32,admin",
-                    "string": "linker: unknown(8.0)[EXE32,admin]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
-        "name": "WinMD5.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "DNGuard",
-                    "options": "-",
-                    "string": "protector: DNGuard(-)[-]",
-                    "type": "protector",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "DNGuard"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
-        "name": "HVMRuntm.dll",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Themida/Winlicense",
-                    "options": "compressed engine",
-                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
-                    "type": "protector",
-                    "version": "1.8.X-1.9.X"
-                },
-                {
-                    "name": "Microsoft Visual C/C++",
-                    "options": "-",
-                    "string": "compiler: Microsoft Visual C/C++(2005)[-]",
-                    "type": "compiler",
-                    "version": "2005"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "DRIVER32",
-                    "string": "linker: Microsoft Linker(8.0 or 11.0)[DRIVER32]",
-                    "type": "linker",
-                    "version": "8.0 or 11.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": false,
-        "labels": [
-            "DNGuard"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
-        "name": "pack.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": ".NETZ",
-                    "options": "-",
-                    "string": "packer: .NETZ(-)[-]",
-                    "type": "packer",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            ".NETZ"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
-        "name": "zip.dll",
-        "scan": {
-            "detects": [
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v1.1.4322)[-]",
-                    "type": "library",
-                    "version": "v1.1.4322"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "DRIVER32",
-                    "string": "linker: Microsoft Linker(6.0)[DRIVER32]",
-                    "type": "linker",
-                    "version": "6.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": false,
-        "labels": [
-            ".NETZ"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/CodeVeil 1.2/CodeVeil 1.2",
-        "name": "UnPackMe_CodeVeil 1.2.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "CodeVeil",
-                    "options": "-",
-                    "string": "protector: CodeVeil(1.2)[-]",
-                    "type": "protector",
-                    "version": "1.2"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "CodeVeil"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Phoenix Protector 1.4.0.1/Phoenix Protector 1.4.0.1",
-        "name": "UnPackMe_Phoenix Protector 1.4.0.1.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Phoenix",
-                    "options": "-",
-                    "string": "protector: Phoenix(1.7-1.8)[-]",
-                    "type": "protector",
-                    "version": "1.7-1.8"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v1.0.3705)[-]",
-                    "type": "library",
-                    "version": "v1.0.3705"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(6.0)[EXE32]",
-                    "type": "linker",
-                    "version": "6.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Phoenix"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 0.71/MPress 0.71",
-        "name": "UnPackMe_MPress 0.71.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(-)[-]",
-                    "type": "packer",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/DNGuard HVM 2.6.2.0/DNGuard HVM 2.6.2.0",
-        "name": "DNGuard_HVM_v2.6.2.0.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "DNGuard",
-                    "options": "-",
-                    "string": "protector: DNGuard(-)[-]",
-                    "type": "protector",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "DNGuard"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/DNGuard HVM 2.6.2.0/DNGuard HVM 2.6.2.0",
-        "name": "HVMRuntm.dll",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Themida/Winlicense",
-                    "options": "compressed engine",
-                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
-                    "type": "protector",
-                    "version": "1.8.X-1.9.X"
-                },
-                {
-                    "name": "Microsoft Visual C/C++",
-                    "options": "-",
-                    "string": "compiler: Microsoft Visual C/C++(2005)[-]",
-                    "type": "compiler",
-                    "version": "2005"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "DRIVER32",
-                    "string": "linker: Microsoft Linker(8.0 or 11.0)[DRIVER32]",
-                    "type": "linker",
-                    "version": "8.0 or 11.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": false,
-        "labels": [
-            "DNGuard"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 2.0/Smart Assembly 2.0",
-        "name": "UnPackMe_Smart Assembly 2.0.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Smart Assembly",
-                    "options": "-",
-                    "string": "protector: Smart Assembly(-)[-]",
-                    "type": "protector",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "VB.NET",
-                    "options": "-",
-                    "string": "compiler: VB.NET(-)[-]",
-                    "type": "compiler",
-                    "version": "-"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Smart Assembly"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 0.75/MPress 0.75",
-        "name": "UnPackMe_MPress 0.75.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(-)[-]",
-                    "type": "packer",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Maxtocode 3.2/Maxtocode 3.2",
-        "name": "UnpackMe_Maxtocode_3.2.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Maxtocode",
-                    "options": "-",
-                    "string": "protector: Maxtocode(3.X)[-]",
-                    "type": "protector",
-                    "version": "3.X"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Maxtocode"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Maxtocode 3.2/Maxtocode 3.2",
-        "name": "MRuntime3.dll",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Themida/Winlicense",
-                    "options": "compressed engine",
-                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
-                    "type": "protector",
-                    "version": "1.8.X-1.9.X"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "DRIVER32",
-                    "string": "linker: Microsoft Linker(7.10)[DRIVER32]",
-                    "type": "linker",
-                    "version": "7.10"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": false,
-        "labels": [
-            "Maxtocode"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
-        "name": "UnPackMe.NET Reactor 2.1.5.3.b.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Petite",
-                    "options": "-",
-                    "string": "packer: Petite(2.1)[-]",
-                    "type": "packer",
-                    "version": "2.1"
-                },
-                {
-                    "name": ".NET Reactor",
-                    "options": "-",
-                    "string": "protector: .NET Reactor(2.0-2.1)[-]",
-                    "type": "protector",
-                    "version": "2.0-2.1"
-                },
-                {
-                    "name": "Borland Delphi",
-                    "options": "-",
-                    "string": "compiler: Borland Delphi(-)[-]",
-                    "type": "compiler",
-                    "version": "-"
-                },
-                {
-                    "name": "Turbo Linker",
-                    "options": "EXE32",
-                    "string": "linker: Turbo Linker(2.25*,Delphi)[EXE32]",
-                    "type": "linker",
-                    "version": "2.25*,Delphi"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            ".NET Reactor"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
-        "name": "UnPackMe.NET Reactor 2.1.5.3.a.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Petite",
-                    "options": "-",
-                    "string": "packer: Petite(2.1)[-]",
-                    "type": "packer",
-                    "version": "2.1"
-                },
-                {
-                    "name": ".NET Reactor",
-                    "options": "-",
-                    "string": "protector: .NET Reactor(2.0-2.1)[-]",
-                    "type": "protector",
-                    "version": "2.0-2.1"
-                },
-                {
-                    "name": "Borland Delphi",
-                    "options": "-",
-                    "string": "compiler: Borland Delphi(-)[-]",
-                    "type": "compiler",
-                    "version": "-"
-                },
-                {
-                    "name": "Turbo Linker",
-                    "options": "EXE32",
-                    "string": "linker: Turbo Linker(2.25*,Delphi)[EXE32]",
-                    "type": "linker",
-                    "version": "2.25*,Delphi"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            ".NET Reactor"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 1.3/Smart Assembly 1.3",
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 1.3/Smart Assembly 1.3",
         "name": "UnPackMe_Smart Assembly 1.3.exe",
         "scan": {
             "detects": [
@@ -626,326 +41,7 @@
         ]
     },
     {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
-        "name": "UnPackMe_MPress 2.01 dotNET.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(2.01)[-]",
-                    "type": "packer",
-                    "version": "2.01"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32,admin",
-                    "string": "linker: unknown(8.0)[EXE32,admin]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
-        "name": "UnPackMe_MPress 2.01 x64.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(2.01)[-]",
-                    "type": "packer",
-                    "version": "2.01"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE64",
-                    "string": "linker: unknown(0.38)[EXE64]",
-                    "type": "linker",
-                    "version": "0.38"
-                }
-            ],
-            "filetype": "PE64"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
-        "name": "UnPackMe_MPress 2.01.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(2.01)[-]",
-                    "type": "packer",
-                    "version": "2.01"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(5.0)[EXE32]",
-                    "type": "linker",
-                    "version": "5.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/NsPack 3.6/NsPack 3.6",
-        "name": "UnPackMe_NsPack3.6.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "NsPacK",
-                    "options": ".NET",
-                    "string": "packer: NsPacK(-)[.NET]",
-                    "type": "packer",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v1.1.4322)[-]",
-                    "type": "library",
-                    "version": "v1.1.4322"
-                },
-                {
-                    "name": "Microsoft Visual C/C++",
-                    "options": "-",
-                    "string": "compiler: Microsoft Visual C/C++(2003)[-]",
-                    "type": "compiler",
-                    "version": "2003"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(7.10)[EXE32]",
-                    "type": "linker",
-                    "version": "7.10"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "NsPack"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/NET Reactor 2.5.0.0/.NET Reactor 2.5.0.0",
-        "name": "UnPackMe_.NET Reactor 2.5.0.0.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": ".NET Reactor",
-                    "options": "-",
-                    "string": "protector: .NET Reactor(2.X-3.X)[-]",
-                    "type": "protector",
-                    "version": "2.X-3.X"
-                },
-                {
-                    "name": "Borland Delphi",
-                    "options": "-",
-                    "string": "compiler: Borland Delphi(6-7 or 2005)[-]",
-                    "type": "compiler",
-                    "version": "6-7 or 2005"
-                },
-                {
-                    "name": "Turbo Linker",
-                    "options": "EXE32",
-                    "string": "linker: Turbo Linker(2.25*,Delphi)[EXE32]",
-                    "type": "linker",
-                    "version": "2.25*,Delphi"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            ".NET Reactor"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Sixxpack 2.2/Sixxpack 2.2",
-        "name": "UnPackMe_Sixxpack 2.2.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Sixxpack",
-                    "options": "-",
-                    "string": "protector: Sixxpack(2.2)[-]",
-                    "type": "protector",
-                    "version": "2.2"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "Microsoft Linker",
-                    "options": "EXE32",
-                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Sixxpack"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.05/MPress 2.05",
-        "name": "UnPackMe_MPress 2.05 dotNET.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(2.05)[-]",
-                    "type": "packer",
-                    "version": "2.05"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32,admin",
-                    "string": "linker: unknown(8.0)[EXE32,admin]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.05/MPress 2.05",
-        "name": "UnPackMe_MPress 2.05.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(2.05)[-]",
-                    "type": "packer",
-                    "version": "2.05"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(5.0)[EXE32]",
-                    "type": "linker",
-                    "version": "5.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.05/MPress 2.05",
-        "name": "UnPackMe_MPress 2.05 x64.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(2.05)[-]",
-                    "type": "packer",
-                    "version": "2.05"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE64",
-                    "string": "linker: unknown(0.38)[EXE64]",
-                    "type": "linker",
-                    "version": "0.38"
-                }
-            ],
-            "filetype": "PE64"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/MPress 0.77/MPress 0.77",
-        "name": "UnPackMe_MPress 0.77.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "MPRESS",
-                    "options": "-",
-                    "string": "packer: MPRESS(-)[-]",
-                    "type": "packer",
-                    "version": "-"
-                },
-                {
-                    "name": ".NET",
-                    "options": "-",
-                    "string": "library: .NET(v2.0.50727)[-]",
-                    "type": "library",
-                    "version": "v2.0.50727"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": true,
-        "labels": [
-            "Mpress"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.0.0.1/dotNET Reactor 2.0.0.1",
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.0.0.1/dotNET Reactor 2.0.0.1",
         "name": "UnPackMe_.NET Reacter 2.0.0.1.exe",
         "scan": {
             "detects": [
@@ -986,7 +82,938 @@
         ]
     },
     {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Phoenix Protector 1.7.0.1/Phoenix Protector 1.7.0.1",
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/CodeVeil 1.2/CodeVeil 1.2",
+        "name": "UnPackMe_CodeVeil 1.2.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "CodeVeil",
+                    "options": "-",
+                    "string": "protector: CodeVeil(1.2)[-]",
+                    "type": "protector",
+                    "version": "1.2"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "CodeVeil"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
+        "name": "UnPackMe.NET Reactor 2.1.5.3.a.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Petite",
+                    "options": "-",
+                    "string": "packer: Petite(2.1)[-]",
+                    "type": "packer",
+                    "version": "2.1"
+                },
+                {
+                    "name": ".NET Reactor",
+                    "options": "-",
+                    "string": "protector: .NET Reactor(2.0-2.1)[-]",
+                    "type": "protector",
+                    "version": "2.0-2.1"
+                },
+                {
+                    "name": "Borland Delphi",
+                    "options": "-",
+                    "string": "compiler: Borland Delphi(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "Turbo Linker",
+                    "options": "EXE32",
+                    "string": "linker: Turbo Linker(2.25*,Delphi)[EXE32]",
+                    "type": "linker",
+                    "version": "2.25*,Delphi"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            ".NET Reactor"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
+        "name": "UnPackMe.NET Reactor 2.1.5.3.b.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Petite",
+                    "options": "-",
+                    "string": "packer: Petite(2.1)[-]",
+                    "type": "packer",
+                    "version": "2.1"
+                },
+                {
+                    "name": ".NET Reactor",
+                    "options": "-",
+                    "string": "protector: .NET Reactor(2.0-2.1)[-]",
+                    "type": "protector",
+                    "version": "2.0-2.1"
+                },
+                {
+                    "name": "Borland Delphi",
+                    "options": "-",
+                    "string": "compiler: Borland Delphi(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "Turbo Linker",
+                    "options": "EXE32",
+                    "string": "linker: Turbo Linker(2.25*,Delphi)[EXE32]",
+                    "type": "linker",
+                    "version": "2.25*,Delphi"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            ".NET Reactor"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Phoenix Protector 1.4.0.1/Phoenix Protector 1.4.0.1",
+        "name": "UnPackMe_Phoenix Protector 1.4.0.1.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Phoenix",
+                    "options": "-",
+                    "string": "protector: Phoenix(1.7-1.8)[-]",
+                    "type": "protector",
+                    "version": "1.7-1.8"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v1.0.3705)[-]",
+                    "type": "library",
+                    "version": "v1.0.3705"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(6.0)[EXE32]",
+                    "type": "linker",
+                    "version": "6.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Phoenix"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.12/MPress 2.12",
+        "name": "UnPackMe_MPress 2.12 .NET.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.12)[-]",
+                    "type": "packer",
+                    "version": "2.12"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32,admin",
+                    "string": "linker: unknown(8.0)[EXE32,admin]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/DNGuard HVM 2.6.2.0/DNGuard HVM 2.6.2.0",
+        "name": "HVMRuntm.dll",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Themida/Winlicense",
+                    "options": "compressed engine",
+                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
+                    "type": "protector",
+                    "version": "1.8.X-1.9.X"
+                },
+                {
+                    "name": "Microsoft Visual C/C++",
+                    "options": "-",
+                    "string": "compiler: Microsoft Visual C/C++(2005)[-]",
+                    "type": "compiler",
+                    "version": "2005"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "DRIVER32",
+                    "string": "linker: Microsoft Linker(8.0 or 11.0)[DRIVER32]",
+                    "type": "linker",
+                    "version": "8.0 or 11.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "DNGuard"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/DNGuard HVM 2.6.2.0/DNGuard HVM 2.6.2.0",
+        "name": "DNGuard_HVM_v2.6.2.0.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "DNGuard",
+                    "options": "-",
+                    "string": "protector: DNGuard(-)[-]",
+                    "type": "protector",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "DNGuard"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Maxtocode 3.2/Maxtocode 3.2",
+        "name": "UnpackMe_Maxtocode_3.2.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Maxtocode",
+                    "options": "-",
+                    "string": "protector: Maxtocode(3.X)[-]",
+                    "type": "protector",
+                    "version": "3.X"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Maxtocode"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Maxtocode 3.2/Maxtocode 3.2",
+        "name": "MRuntime3.dll",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Themida/Winlicense",
+                    "options": "compressed engine",
+                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
+                    "type": "protector",
+                    "version": "1.8.X-1.9.X"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "DRIVER32",
+                    "string": "linker: Microsoft Linker(7.10)[DRIVER32]",
+                    "type": "linker",
+                    "version": "7.10"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "Maxtocode"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/NET Reactor 2.5.0.0/.NET Reactor 2.5.0.0",
+        "name": "UnPackMe_.NET Reactor 2.5.0.0.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": ".NET Reactor",
+                    "options": "-",
+                    "string": "protector: .NET Reactor(2.X-3.X)[-]",
+                    "type": "protector",
+                    "version": "2.X-3.X"
+                },
+                {
+                    "name": "Borland Delphi",
+                    "options": "-",
+                    "string": "compiler: Borland Delphi(6-7 or 2005)[-]",
+                    "type": "compiler",
+                    "version": "6-7 or 2005"
+                },
+                {
+                    "name": "Turbo Linker",
+                    "options": "EXE32",
+                    "string": "linker: Turbo Linker(2.25*,Delphi)[EXE32]",
+                    "type": "linker",
+                    "version": "2.25*,Delphi"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            ".NET Reactor"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Skater .NET Obfuscator Light 2.6/Skater .NET Obfuscator Light 2.6",
+        "name": "UnPackMe_Skater .NET Obfuscator 2.6.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Skater",
+                    "options": "-",
+                    "string": "protector: Skater(-)[-]",
+                    "type": "protector",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "VB.NET",
+                    "options": "-",
+                    "string": "compiler: VB.NET(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Skater"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.05/MPress 2.05",
+        "name": "UnPackMe_MPress 2.05 dotNET.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.05)[-]",
+                    "type": "packer",
+                    "version": "2.05"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32,admin",
+                    "string": "linker: unknown(8.0)[EXE32,admin]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.05/MPress 2.05",
+        "name": "UnPackMe_MPress 2.05.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.05)[-]",
+                    "type": "packer",
+                    "version": "2.05"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(5.0)[EXE32]",
+                    "type": "linker",
+                    "version": "5.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.05/MPress 2.05",
+        "name": "UnPackMe_MPress 2.05 x64.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.05)[-]",
+                    "type": "packer",
+                    "version": "2.05"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(0.38)[EXE64]",
+                    "type": "linker",
+                    "version": "0.38"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01 dotNET.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.01)[-]",
+                    "type": "packer",
+                    "version": "2.01"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32,admin",
+                    "string": "linker: unknown(8.0)[EXE32,admin]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.01)[-]",
+                    "type": "packer",
+                    "version": "2.01"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(5.0)[EXE32]",
+                    "type": "linker",
+                    "version": "5.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01 x64.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(2.01)[-]",
+                    "type": "packer",
+                    "version": "2.01"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE64",
+                    "string": "linker: unknown(0.38)[EXE64]",
+                    "type": "linker",
+                    "version": "0.38"
+                }
+            ],
+            "filetype": "PE64"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Themida .NET 1.9.3.0/Themida .NET 1.9.3.0",
+        "name": "UnPackMe_Themida 1.9.3.0.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Themida/Winlicense",
+                    "options": "compressed engine",
+                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
+                    "type": "protector",
+                    "version": "1.8.X-1.9.X"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "Themida .NET"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 0.77/MPress 0.77",
+        "name": "UnPackMe_MPress 0.77.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(-)[-]",
+                    "type": "packer",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/NsPack 3.6/NsPack 3.6",
+        "name": "UnPackMe_NsPack3.6.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "NsPacK",
+                    "options": ".NET",
+                    "string": "packer: NsPacK(-)[.NET]",
+                    "type": "packer",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v1.1.4322)[-]",
+                    "type": "library",
+                    "version": "v1.1.4322"
+                },
+                {
+                    "name": "Microsoft Visual C/C++",
+                    "options": "-",
+                    "string": "compiler: Microsoft Visual C/C++(2003)[-]",
+                    "type": "compiler",
+                    "version": "2003"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(7.10)[EXE32]",
+                    "type": "linker",
+                    "version": "7.10"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "NsPack"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
+        "name": "zip.dll",
+        "scan": {
+            "detects": [
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v1.1.4322)[-]",
+                    "type": "library",
+                    "version": "v1.1.4322"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "DRIVER32",
+                    "string": "linker: Microsoft Linker(6.0)[DRIVER32]",
+                    "type": "linker",
+                    "version": "6.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            ".NETZ"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
+        "name": "pack.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": ".NETZ",
+                    "options": "-",
+                    "string": "packer: .NETZ(-)[-]",
+                    "type": "packer",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            ".NETZ"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 0.71/MPress 0.71",
+        "name": "UnPackMe_MPress 0.71.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(-)[-]",
+                    "type": "packer",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 2.0/Smart Assembly 2.0",
+        "name": "UnPackMe_Smart Assembly 2.0.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Smart Assembly",
+                    "options": "-",
+                    "string": "protector: Smart Assembly(-)[-]",
+                    "type": "protector",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "VB.NET",
+                    "options": "-",
+                    "string": "compiler: VB.NET(-)[-]",
+                    "type": "compiler",
+                    "version": "-"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Smart Assembly"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Sixxpack 2.2/Sixxpack 2.2",
+        "name": "UnPackMe_Sixxpack 2.2.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Sixxpack",
+                    "options": "-",
+                    "string": "protector: Sixxpack(2.2)[-]",
+                    "type": "protector",
+                    "version": "2.2"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Sixxpack"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/MPress 0.75/MPress 0.75",
+        "name": "UnPackMe_MPress 0.75.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "MPRESS",
+                    "options": "-",
+                    "string": "packer: MPRESS(-)[-]",
+                    "type": "packer",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "unknown",
+                    "options": "EXE32",
+                    "string": "linker: unknown(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "Mpress"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
+        "name": "HVMRuntm.dll",
+        "scan": {
+            "detects": [
+                {
+                    "name": "Themida/Winlicense",
+                    "options": "compressed engine",
+                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
+                    "type": "protector",
+                    "version": "1.8.X-1.9.X"
+                },
+                {
+                    "name": "Microsoft Visual C/C++",
+                    "options": "-",
+                    "string": "compiler: Microsoft Visual C/C++(2005)[-]",
+                    "type": "compiler",
+                    "version": "2005"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "DRIVER32",
+                    "string": "linker: Microsoft Linker(8.0 or 11.0)[DRIVER32]",
+                    "type": "linker",
+                    "version": "8.0 or 11.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": false,
+        "labels": [
+            "DNGuard"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
+        "name": "WinMD5.exe",
+        "scan": {
+            "detects": [
+                {
+                    "name": "DNGuard",
+                    "options": "-",
+                    "string": "protector: DNGuard(-)[-]",
+                    "type": "protector",
+                    "version": "-"
+                },
+                {
+                    "name": ".NET",
+                    "options": "-",
+                    "string": "library: .NET(v2.0.50727)[-]",
+                    "type": "library",
+                    "version": "v2.0.50727"
+                },
+                {
+                    "name": "Microsoft Linker",
+                    "options": "EXE32",
+                    "string": "linker: Microsoft Linker(8.0)[EXE32]",
+                    "type": "linker",
+                    "version": "8.0"
+                }
+            ],
+            "filetype": "PE32"
+        },
+        "detectable": true,
+        "labels": [
+            "DNGuard"
+        ]
+    },
+    {
+        "path": "/home/ffri/PackerDetectionToolEvaluation/dataset/UnpackMe/UnpackMe (.NET)/Phoenix Protector 1.7.0.1/Phoenix Protector 1.7.0.1",
         "name": "Phoenix Protector 1.7.0.1.exe",
         "scan": {
             "detects": [
@@ -1024,33 +1051,6 @@
         "detectable": true,
         "labels": [
             "Phoenix"
-        ]
-    },
-    {
-        "path": "/home/ffri/dataset/UnpackMe/UnpackMe (.NET)/Themida .NET 1.9.3.0/Themida .NET 1.9.3.0",
-        "name": "UnPackMe_Themida 1.9.3.0.exe",
-        "scan": {
-            "detects": [
-                {
-                    "name": "Themida/Winlicense",
-                    "options": "compressed engine",
-                    "string": "protector: Themida/Winlicense(1.8.X-1.9.X)[compressed engine]",
-                    "type": "protector",
-                    "version": "1.8.X-1.9.X"
-                },
-                {
-                    "name": "unknown",
-                    "options": "EXE32",
-                    "string": "linker: unknown(8.0)[EXE32]",
-                    "type": "linker",
-                    "version": "8.0"
-                }
-            ],
-            "filetype": "PE32"
-        },
-        "detectable": false,
-        "labels": [
-            "Themida .NET"
         ]
     }
 ]

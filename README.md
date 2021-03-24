@@ -11,7 +11,7 @@ DIE can detect packed binaries and estimate the type of packer with high precisi
 We use two datasets for evaluating packer type estimation/detection tools.
 
 - [PackingData](https://github.com/chesvectain/PackingData)
-- [RCE_Lab](https://github.com/apuromafo/RCE_Lab)
+- [RCE\_Lab](https://github.com/apuromafo/RCE_Lab)
 
 ### PackingData
 
@@ -24,7 +24,17 @@ This dataset contains both packed and normal (i.e., non-packed) binaries, which 
     - These binaries are created by packing 130 PE files using the following 19 packers (but 129 PE files for JDPack):
         - ASPack, BeRoEXEPacker, FSG, JDpack, MEW, MPRESS, Molebox, NSPack, Neolite, PECompact, Petite, Packman, RLPack, UPX, WinUpack, Yoda’s Crypter, Yoda’s Protector, eXpressor, exe32pack
 
-### RCE_Lab
+**Notes about PackingData dataset (2021/03/11)**
+
+We noticed that PackingData dataset contains some mislabeled samples after publishing the [first evaluation result](https://github.com/FFRI/PackerDetectionToolEvaluation/tree/ae0f653ade67e5e0d9d0d7d996dd9816e09a1a3c).
+(For example, `PackingData/Notpacked/avs_check_x86.exe` is [an UPX packed-binary](https://www.virustotal.com/gui/file/2fd27a3f6c9644b8105c7934d0f41fe10b056e327491df37750d634336f4b2db/details), but labeled as `NotPacked`.)
+
+So, we changed the labels of some samples for the precise evaluation.
+To fix the labeles of mislabeled samples, please run [change\_dataset\_labels.py](./change_dataset_labels.py) script.
+
+TPRs and FPRs slightly differs from the previous result, but the [conclusion does not change](#summary).
+
+### RCE\_Lab
 
 This dataset contains binaries packed by various different packers. We only use the binaries in `tuts4you/Unpack*` for evaluation. Since this dataset does not contain normal binaries, we mainly use it for evaluating the performance of packer type estimation.
 
@@ -36,31 +46,39 @@ The following table shows the comparison of packer type estimation performance b
 
 |     | pypeid | DIE   |
 | --- | -----: | ----: |
-| TPR | 73.1%  | **89.9%** |
-| TPR (for only packed binaries) | 78.4%  | **88.1%** |
+| Accuracy | 73.2%  | **84.9%** |
 
 The following table shows the comparison of packer detection performance between pypeid and DIE. You can see the great reduction of FPR for DIE compared with pypeid.
 
 |     | pypeid | DIE   |
 | --- | -----: | ----: |
 | TPR | 94.5%  | 93.5% |
-| FPR | **55.5%**  | **0.7%** |
+| FPR | **54.8%**  | **0.7%** |
 
-### RCE_Lab
+### RCE\_Lab
 
 The following table shows the comparison of packer type estimation performance between pypeid and DIE. You can also see the improvement of estimation performance in this dataset.
 
 |      | pypeid | DIE   |
 | ---- | -----: | ----: |
-| TPR  | 65.0%  | **73.7%** |
+| Accuracy  | 65.1%  | **69.0%** |
 
 The following table shows the comparison of packer detection performance between pypeid and DIE. We do not show the FPR because this dataset does not contain normal binaries. The packer detection performance of DIE is slight lower than pypeid.
 
 |     | pypeid |  DIE  |
 | --- | -----: | ----: |
-| TPR | 88.1%  | 83.1% |
+| TPR | 88.2%  | 83.1% |
 
 ## How to reproduce the results?
+
+### Tested platform
+
+- Ubuntu 20.04 LTS on WSL on Windows 10 version 1909
+
+### Requirements
+
+- Python 3.6
+- [Poetry](https://python-poetry.org/)
 
 ### Prepare dataset
 
@@ -69,25 +87,42 @@ $ git clone --depth=1 https://github.com/chesvectain/PackingData.git dataset/Pac
 $ git clone --depth=1 https://github.com/apuromafo/RCE_Lab.git
 $ mkdir dataset/UnpackMe
 $ mv RCE_Lab/tuts4you/Unpack* dataset/UnpackMe
+$ python change_dataset_labels.py
+```
+
+### Resolve dependencies
+
+```
+$ sudo apt install unrar # To resolve rarfile's dependencies manually
+$ poetry shell
+$ poetry update
 ```
 
 ### Scan with pypeid
 
 ```
-# Install pypeid by referring to the README of the https://github.com/FFRI/pypeid
 $ python peid_packer_scan.py
 $ python peid_packer_scan_statistics.py
 PackingData
-- Notpacked.json
-  - Total:  458
-  - Detected as packed:  0
-  - Detected as no packer:  204
-  - Excessively detected as multiple packers:  238
 - PackingData.json
-  - Total:  2469
-  - Detected as packed:  1936
-  - Detected as no packer:  137
-  - Excessively detected as multiple packers:  1815
+  - Total: 2476
+    - Scan-failed samples: 0
+    - Samples scanned: 2476
+       - Purely detected as packed: 129
+       - Excessively detected as packed (containing true label): 1810
+       - Purely detected as non-packed: 137
+       - Excessively detected as packed (not containing true label): 400
+- Notpacked.json
+  - Total: 451
+    - Scan-failed samples: 0
+    - Samples scanned: 451
+       - Purely detected as packed: 0
+       - Excessively detected as packed (containing true label): 0
+       - Purely detected as non-packed: 204
+       - Excessively detected as packed (not containing true label): 247
+Categorical Accuracy:  0.7321489579774513
+TPR:  0.9446688206785138
+FPR:  0.5476718403547672
 ...
 ```
 
@@ -100,16 +135,25 @@ $ tar -zxvf die_lin64_portable_3.00.tar.gz -C die_lin64_portable_3.00
 $ python die_packer_scan.py
 $ python die_packer_scan_statistics.py
 PackingData
-- Notpacked.json
-  - Total:  458
-  - Detected as packed:  0
-  - Detected as no packer:  455
-  - Excessively detected as multiple packers:  1
 - PackingData.json
-  - Total:  2469
-  - Detected as packed:  2176
-  - Detected as no packer:  160
-  - Excessively detected as multiple packers:  135
+  - Total:  2476
+    - Scan-failed samples: 0
+    - Samples scanned: 2476
+       - Purely detected as packed: 2037
+       - Excessively detected as packed (containing true label): 146
+       - Purely detected as non-packed: 161
+       - Excessively detected as packed (not containing true label): 132
+- Notpacked.json
+  - Total:  451
+    - Scan-failed samples: 0
+    - Samples scanned: 451
+       - Purely detected as packed: 0
+       - Excessively detected as packed (containing true label): 0
+       - Purely detected as non-packed: 448
+       - Excessively detected as packed (not containing true label): 3
+Categorical Accuracy:  0.8489921421250427
+TPR:  0.9349757673667205
+FPR:  0.0066518847006651885
 ...
 ```
 
@@ -132,3 +176,7 @@ You can get the scan result as JSON arrays. Each element of this JSON arrays is 
 ## Author
 
 Tsubasa Kuwabara. © FFRI Security, Inc. 2020
+
+## License
+
+[Apache version 2.0](./LICENSE)

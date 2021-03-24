@@ -1,36 +1,7 @@
 [
     {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/Skater .NET Obfuscator Light 2.6/Skater .NET Obfuscator Light 2.6",
-        "name": "UnPackMe_Skater .NET Obfuscator 2.6.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "no",
-            "GUI Program": "yes",
-            "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_Studio_NET",
-                "Microsoft_Visual_C_v70_Basic_NET_additional",
-                "Microsoft_Visual_C_Basic_NET",
-                "Microsoft_Visual_Studio_NET_additional",
-                "Microsoft_Visual_C_v70_Basic_NET",
-                "NET_executable_",
-                "NET_executable"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "Skater.NETObfuscatorLight",
-            "Skater_.NET_Obfuscator_Light"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.12/MPress 2.12",
-        "name": "UnPackMe_MPress 2.12 .NET.exe",
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 1.3/Smart Assembly 1.3",
+        "name": "UnPackMe_Smart Assembly 1.3.exe",
         "scan": {
             "PE": "32 bit",
             "DLL": "no",
@@ -45,39 +16,16 @@
         },
         "detectable": false,
         "labels": [
-            "MPress",
-            "MPress"
+            "SmartAssembly",
+            "Smart_Assembly"
         ]
     },
     {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
-        "name": "WinMD5.exe",
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.0.0.1/dotNET Reactor 2.0.0.1",
+        "name": "UnPackMe_.NET Reacter 2.0.0.1.exe",
         "scan": {
             "PE": "32 bit",
             "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "no",
-            "GUI Program": "yes",
-            "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_C_Basic_NET"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "DNGuard(Standard)",
-            "DNGuard_(Standard)"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
-        "name": "HVMRuntm.dll",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "yes",
             "Packed": "yes",
             "Anti-Debug": "no (yes)",
             "GUI Program": "yes",
@@ -85,80 +33,24 @@
             "mutex": "no",
             "contains base64": "yes",
             "PEiD": [
-                "ThemidaWinLicense_V18X_V19X_Oreans_Technologies",
-                "Themida_18xx_Oreans_Technologies",
-                "ThemidaWinLicense_V18X_V19X_DLL_Oreans_Technologies",
-                "ThemidaWinLicense_V18X_V19Xnbsp_Oreans_Technologiesnbsp_nbsp_SignByfly",
-                "ThemidaWinLicense_V18X_V19X_Other_Oreans_Technologies_20080131",
-                "Themida_18xx_19xx_Oreans_Technologies",
-                "Themida_18xx_Oreans_Technologies_additional",
-                "ThemidaWinLicense_V18X_V19X_Other_Oreans_Technologies_SignByfly_20080131",
-                "ThemidaWinLicense_V18X_V2X_Oreans_Technologies_20080131"
+                "Petite_v22_Compresor_wwwun4seencompetite",
+                "PEtite_v21",
+                "FSG_v110_Eng_dulekxt_Borland_Delphi_Borland_Cpp_additional",
+                "Petite_v21_2_additional",
+                "Petite_v22_wwwun4seencompetite_additional",
+                "PackerPetite_v22_Compresor_wwwun4seencompetite",
+                "Petite_v22_wwwun4seencompetite",
+                "PEtite_v21_additional",
+                "Petite_v21_2_Hint_WIN_EP",
+                "Petite_v21_2",
+                "PEtite_v21_Ian_Luck"
             ],
             "AntiDebug": []
         },
         "detectable": false,
         "labels": [
-            "DNGuard(Standard)",
-            "DNGuard_(Standard)"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
-        "name": "pack.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "no",
-            "GUI Program": "yes",
-            "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_Studio_NET",
-                "Microsoft_Visual_C_v70_Basic_NET_additional",
-                "Microsoft_Visual_C_Basic_NET",
-                "Microsoft_Visual_Studio_NET_additional",
-                "Microsoft_Visual_C_v70_Basic_NET",
-                "NET_executable_",
-                "NET_executable"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "dotNETZ",
-            "dotNETZ"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
-        "name": "zip.dll",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "yes",
-            "Packed": "no",
-            "Anti-Debug": "no",
-            "GUI Program": "no",
-            "Console Program": "yes",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_Studio_NET",
-                "Microsoft_Visual_C_v70_Basic_NET_additional",
-                "Microsoft_Visual_C_Basic_NET",
-                "Microsoft_Visual_Studio_NET_additional",
-                "Microsoft_Visual_C_v70_Basic_NET",
-                "NET_executable_",
-                "NET_executable"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "dotNETZ",
-            "dotNETZ"
+            "dotNETReactor",
+            "dotNET_Reactor"
         ]
     },
     {
@@ -184,6 +76,72 @@
         "labels": [
             "CodeVeil",
             "CodeVeil"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
+        "name": "UnPackMe.NET Reactor 2.1.5.3.a.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Petite_v22_Compresor_wwwun4seencompetite",
+                "PEtite_v21",
+                "FSG_v110_Eng_dulekxt_Borland_Delphi_Borland_Cpp_additional",
+                "Petite_v21_2_additional",
+                "Petite_v22_wwwun4seencompetite_additional",
+                "PackerPetite_v22_Compresor_wwwun4seencompetite",
+                "Petite_v22_wwwun4seencompetite",
+                "PEtite_v21_additional",
+                "Petite_v21_2_Hint_WIN_EP",
+                "Petite_v21_2",
+                "PEtite_v21_Ian_Luck"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "dotNETReactor",
+            "dotNET_Reactor"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
+        "name": "UnPackMe.NET Reactor 2.1.5.3.b.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Petite_v22_Compresor_wwwun4seencompetite",
+                "PEtite_v21",
+                "FSG_v110_Eng_dulekxt_Borland_Delphi_Borland_Cpp_additional",
+                "Petite_v21_2_additional",
+                "Petite_v22_wwwun4seencompetite_additional",
+                "PackerPetite_v22_Compresor_wwwun4seencompetite",
+                "Petite_v22_wwwun4seencompetite",
+                "PEtite_v21_additional",
+                "Petite_v21_2_Hint_WIN_EP",
+                "Petite_v21_2",
+                "PEtite_v21_Ian_Luck"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "dotNETReactor",
+            "dotNET_Reactor"
         ]
     },
     {
@@ -216,37 +174,8 @@
         ]
     },
     {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 0.71/MPress 0.71",
-        "name": "UnPackMe_MPress 0.71.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_Studio_NET",
-                "Microsoft_Visual_C_v70_Basic_NET_additional",
-                "Microsoft_Visual_C_Basic_NET",
-                "Microsoft_Visual_Studio_NET_additional",
-                "Microsoft_Visual_C_v70_Basic_NET",
-                "NET_executable_",
-                "NET_executable"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "MPress",
-            "MPress"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/DNGuard HVM 2.6.2.0/DNGuard HVM 2.6.2.0",
-        "name": "DNGuard_HVM_v2.6.2.0.exe",
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.12/MPress 2.12",
+        "name": "UnPackMe_MPress 2.12 .NET.exe",
         "scan": {
             "PE": "32 bit",
             "DLL": "no",
@@ -256,21 +185,13 @@
             "Console Program": "no",
             "mutex": "no",
             "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_Studio_NET",
-                "Microsoft_Visual_C_v70_Basic_NET_additional",
-                "Microsoft_Visual_C_Basic_NET",
-                "Microsoft_Visual_Studio_NET_additional",
-                "Microsoft_Visual_C_v70_Basic_NET",
-                "NET_executable_",
-                "NET_executable"
-            ],
+            "PEiD": [],
             "AntiDebug": []
         },
         "detectable": false,
         "labels": [
-            "DNGuardHVM",
-            "DNGuard_HVM"
+            "MPress",
+            "MPress"
         ]
     },
     {
@@ -305,8 +226,8 @@
         ]
     },
     {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 2.0/Smart Assembly 2.0",
-        "name": "UnPackMe_Smart Assembly 2.0.exe",
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/DNGuard HVM 2.6.2.0/DNGuard HVM 2.6.2.0",
+        "name": "DNGuard_HVM_v2.6.2.0.exe",
         "scan": {
             "PE": "32 bit",
             "DLL": "no",
@@ -314,27 +235,6 @@
             "Anti-Debug": "no",
             "GUI Program": "yes",
             "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "SmartAssembly",
-            "Smart_Assembly"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 0.75/MPress 0.75",
-        "name": "UnPackMe_MPress 0.75.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
             "mutex": "no",
             "contains base64": "yes",
             "PEiD": [
@@ -350,8 +250,8 @@
         },
         "detectable": false,
         "labels": [
-            "MPress",
-            "MPress"
+            "DNGuardHVM",
+            "DNGuard_HVM"
         ]
     },
     {
@@ -407,183 +307,6 @@
         ]
     },
     {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
-        "name": "UnPackMe.NET Reactor 2.1.5.3.b.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Petite_v22_Compresor_wwwun4seencompetite",
-                "PEtite_v21",
-                "FSG_v110_Eng_dulekxt_Borland_Delphi_Borland_Cpp_additional",
-                "Petite_v21_2_additional",
-                "Petite_v22_wwwun4seencompetite_additional",
-                "PackerPetite_v22_Compresor_wwwun4seencompetite",
-                "Petite_v22_wwwun4seencompetite",
-                "PEtite_v21_additional",
-                "Petite_v21_2_Hint_WIN_EP",
-                "Petite_v21_2",
-                "PEtite_v21_Ian_Luck"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "dotNETReactor",
-            "dotNET_Reactor"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.1.5.3/dotNET Reactor 2.1.5.3",
-        "name": "UnPackMe.NET Reactor 2.1.5.3.a.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Petite_v22_Compresor_wwwun4seencompetite",
-                "PEtite_v21",
-                "FSG_v110_Eng_dulekxt_Borland_Delphi_Borland_Cpp_additional",
-                "Petite_v21_2_additional",
-                "Petite_v22_wwwun4seencompetite_additional",
-                "PackerPetite_v22_Compresor_wwwun4seencompetite",
-                "Petite_v22_wwwun4seencompetite",
-                "PEtite_v21_additional",
-                "Petite_v21_2_Hint_WIN_EP",
-                "Petite_v21_2",
-                "PEtite_v21_Ian_Luck"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "dotNETReactor",
-            "dotNET_Reactor"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 1.3/Smart Assembly 1.3",
-        "name": "UnPackMe_Smart Assembly 1.3.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "no",
-            "GUI Program": "yes",
-            "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "SmartAssembly",
-            "Smart_Assembly"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
-        "name": "UnPackMe_MPress 2.01 dotNET.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "no",
-            "GUI Program": "yes",
-            "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "MPress",
-            "MPress"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
-        "name": "UnPackMe_MPress 2.01 x64.exe",
-        "scan": {
-            "PE": "64 bit",
-            "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "no",
-            "GUI Program": "yes",
-            "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "MPress",
-            "MPress"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
-        "name": "UnPackMe_MPress 2.01.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "MPRESS_V200_V20X_MATCODE_Software_20090423",
-                "yodas_Protector_v1033_dllocx_Ashkbiz_Danehkar_h"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": true,
-        "labels": [
-            "MPress",
-            "MPress"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/NsPack 3.6/NsPack 3.6",
-        "name": "UnPackMe_NsPack3.6.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "yes",
-            "GUI Program": "yes",
-            "Console Program": "no",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "nSPack_2x3x_NET_North_StarLiu_Xing_Ping",
-                "nSPack_2x3x_NET_North_StarLiu_Xing_Ping_additional"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": true,
-        "labels": [
-            "NsPack",
-            "NsPack"
-        ]
-    },
-    {
         "path": "dataset/UnpackMe/UnpackMe (.NET)/NET Reactor 2.5.0.0/.NET Reactor 2.5.0.0",
         "name": "UnPackMe_.NET Reactor 2.5.0.0.exe",
         "scan": {
@@ -607,8 +330,8 @@
         ]
     },
     {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/Sixxpack 2.2/Sixxpack 2.2",
-        "name": "UnPackMe_Sixxpack 2.2.exe",
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/Skater .NET Obfuscator Light 2.6/Skater .NET Obfuscator Light 2.6",
+        "name": "UnPackMe_Skater .NET Obfuscator 2.6.exe",
         "scan": {
             "PE": "32 bit",
             "DLL": "no",
@@ -631,8 +354,8 @@
         },
         "detectable": false,
         "labels": [
-            "Sixxpack",
-            "Sixxpack"
+            "Skater.NETObfuscatorLight",
+            "Skater_.NET_Obfuscator_Light"
         ]
     },
     {
@@ -702,70 +425,8 @@
         ]
     },
     {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 0.77/MPress 0.77",
-        "name": "UnPackMe_MPress 0.77.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_Studio_NET",
-                "Microsoft_Visual_C_v70_Basic_NET_additional",
-                "Microsoft_Visual_C_Basic_NET",
-                "Microsoft_Visual_Studio_NET_additional",
-                "Microsoft_Visual_C_v70_Basic_NET",
-                "NET_executable_",
-                "NET_executable"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "MPress",
-            "MPress"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNET Reactor 2.0.0.1/dotNET Reactor 2.0.0.1",
-        "name": "UnPackMe_.NET Reacter 2.0.0.1.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "Petite_v22_Compresor_wwwun4seencompetite",
-                "PEtite_v21",
-                "FSG_v110_Eng_dulekxt_Borland_Delphi_Borland_Cpp_additional",
-                "Petite_v21_2_additional",
-                "Petite_v22_wwwun4seencompetite_additional",
-                "PackerPetite_v22_Compresor_wwwun4seencompetite",
-                "Petite_v22_wwwun4seencompetite",
-                "PEtite_v21_additional",
-                "Petite_v21_2_Hint_WIN_EP",
-                "Petite_v21_2",
-                "PEtite_v21_Ian_Luck"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": false,
-        "labels": [
-            "dotNETReactor",
-            "dotNET_Reactor"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (.NET)/Phoenix Protector 1.7.0.1/Phoenix Protector 1.7.0.1",
-        "name": "Phoenix Protector 1.7.0.1.exe",
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01 dotNET.exe",
         "scan": {
             "PE": "32 bit",
             "DLL": "no",
@@ -775,21 +436,58 @@
             "Console Program": "no",
             "mutex": "no",
             "contains base64": "yes",
-            "PEiD": [
-                "Microsoft_Visual_Studio_NET",
-                "Microsoft_Visual_C_v70_Basic_NET_additional",
-                "Microsoft_Visual_C_Basic_NET",
-                "Microsoft_Visual_Studio_NET_additional",
-                "Microsoft_Visual_C_v70_Basic_NET",
-                "NET_executable_",
-                "NET_executable"
-            ],
+            "PEiD": [],
             "AntiDebug": []
         },
         "detectable": false,
         "labels": [
-            "PhoenixProtector",
-            "Phoenix_Protector"
+            "MPress",
+            "MPress"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "MPRESS_V200_V20X_MATCODE_Software_20090423",
+                "yodas_Protector_v1033_dllocx_Ashkbiz_Danehkar_h"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": true,
+        "labels": [
+            "MPress",
+            "MPress"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 2.01/MPress 2.01",
+        "name": "UnPackMe_MPress 2.01 x64.exe",
+        "scan": {
+            "PE": "64 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "MPress",
+            "MPress"
         ]
     },
     {
@@ -825,6 +523,308 @@
         "labels": [
             "Themida",
             "Themida"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 0.77/MPress 0.77",
+        "name": "UnPackMe_MPress 0.77.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_Studio_NET",
+                "Microsoft_Visual_C_v70_Basic_NET_additional",
+                "Microsoft_Visual_C_Basic_NET",
+                "Microsoft_Visual_Studio_NET_additional",
+                "Microsoft_Visual_C_v70_Basic_NET",
+                "NET_executable_",
+                "NET_executable"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "MPress",
+            "MPress"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/NsPack 3.6/NsPack 3.6",
+        "name": "UnPackMe_NsPack3.6.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "yes",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "nSPack_2x3x_NET_North_StarLiu_Xing_Ping",
+                "nSPack_2x3x_NET_North_StarLiu_Xing_Ping_additional"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": true,
+        "labels": [
+            "NsPack",
+            "NsPack"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
+        "name": "zip.dll",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "yes",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "no",
+            "Console Program": "yes",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_Studio_NET",
+                "Microsoft_Visual_C_v70_Basic_NET_additional",
+                "Microsoft_Visual_C_Basic_NET",
+                "Microsoft_Visual_Studio_NET_additional",
+                "Microsoft_Visual_C_v70_Basic_NET",
+                "NET_executable_",
+                "NET_executable"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "dotNETZ",
+            "dotNETZ"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/dotNETZ 0.2.7/dotNETZ 0.2.7",
+        "name": "pack.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_Studio_NET",
+                "Microsoft_Visual_C_v70_Basic_NET_additional",
+                "Microsoft_Visual_C_Basic_NET",
+                "Microsoft_Visual_Studio_NET_additional",
+                "Microsoft_Visual_C_v70_Basic_NET",
+                "NET_executable_",
+                "NET_executable"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "dotNETZ",
+            "dotNETZ"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 0.71/MPress 0.71",
+        "name": "UnPackMe_MPress 0.71.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_Studio_NET",
+                "Microsoft_Visual_C_v70_Basic_NET_additional",
+                "Microsoft_Visual_C_Basic_NET",
+                "Microsoft_Visual_Studio_NET_additional",
+                "Microsoft_Visual_C_v70_Basic_NET",
+                "NET_executable_",
+                "NET_executable"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "MPress",
+            "MPress"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/Smart Assembly 2.0/Smart Assembly 2.0",
+        "name": "UnPackMe_Smart Assembly 2.0.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "SmartAssembly",
+            "Smart_Assembly"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/Sixxpack 2.2/Sixxpack 2.2",
+        "name": "UnPackMe_Sixxpack 2.2.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_Studio_NET",
+                "Microsoft_Visual_C_v70_Basic_NET_additional",
+                "Microsoft_Visual_C_Basic_NET",
+                "Microsoft_Visual_Studio_NET_additional",
+                "Microsoft_Visual_C_v70_Basic_NET",
+                "NET_executable_",
+                "NET_executable"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "Sixxpack",
+            "Sixxpack"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/MPress 0.75/MPress 0.75",
+        "name": "UnPackMe_MPress 0.75.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_Studio_NET",
+                "Microsoft_Visual_C_v70_Basic_NET_additional",
+                "Microsoft_Visual_C_Basic_NET",
+                "Microsoft_Visual_Studio_NET_additional",
+                "Microsoft_Visual_C_v70_Basic_NET",
+                "NET_executable_",
+                "NET_executable"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "MPress",
+            "MPress"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
+        "name": "HVMRuntm.dll",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "yes",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "ThemidaWinLicense_V18X_V19X_Oreans_Technologies",
+                "Themida_18xx_Oreans_Technologies",
+                "ThemidaWinLicense_V18X_V19X_DLL_Oreans_Technologies",
+                "ThemidaWinLicense_V18X_V19Xnbsp_Oreans_Technologiesnbsp_nbsp_SignByfly",
+                "ThemidaWinLicense_V18X_V19X_Other_Oreans_Technologies_20080131",
+                "Themida_18xx_19xx_Oreans_Technologies",
+                "Themida_18xx_Oreans_Technologies_additional",
+                "ThemidaWinLicense_V18X_V19X_Other_Oreans_Technologies_SignByfly_20080131",
+                "ThemidaWinLicense_V18X_V2X_Oreans_Technologies_20080131"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "DNGuard(Standard)",
+            "DNGuard_(Standard)"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/DNGuard (Standard) 2.6/DNGuard (Standard) 2.6",
+        "name": "WinMD5.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_C_Basic_NET"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "DNGuard(Standard)",
+            "DNGuard_(Standard)"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (.NET)/Phoenix Protector 1.7.0.1/Phoenix Protector 1.7.0.1",
+        "name": "Phoenix Protector 1.7.0.1.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "Microsoft_Visual_Studio_NET",
+                "Microsoft_Visual_C_v70_Basic_NET_additional",
+                "Microsoft_Visual_C_Basic_NET",
+                "Microsoft_Visual_Studio_NET_additional",
+                "Microsoft_Visual_C_v70_Basic_NET",
+                "NET_executable_",
+                "NET_executable"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "PhoenixProtector",
+            "Phoenix_Protector"
         ]
     }
 ]

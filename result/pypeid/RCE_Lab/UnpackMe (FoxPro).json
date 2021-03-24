@@ -1,5 +1,26 @@
 [
     {
+        "path": "dataset/UnpackMe/UnpackMe (FoxPro)/KONxiSE 1.0/KONxiSE 1.0",
+        "name": "UnPackMe_KONxiSE 1.0.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "no",
+            "Anti-Debug": "no",
+            "GUI Program": "yes",
+            "Console Program": "no",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [],
+            "AntiDebug": []
+        },
+        "detectable": false,
+        "labels": [
+            "KONxiSE",
+            "KONxiSE"
+        ]
+    },
+    {
         "path": "dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
         "name": "UnPackMe_Original.exe",
         "scan": {
@@ -15,58 +36,6 @@
             "AntiDebug": []
         },
         "detectable": false,
-        "labels": [
-            "vfpexeNc",
-            "vfpexeNc"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
-        "name": "UnPackMe_vfp&exeNc6.20.intensityi.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "vfpexeNc_v600_Wang_JianGuo",
-                "vfpexeNc_v600_Wang_JianGuo_additional",
-                "yodas_Protector_v1033_dllocx_Ashkbiz_Danehkar_h",
-                "ACProtect_V14X_risco_additional"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": true,
-        "labels": [
-            "vfpexeNc",
-            "vfpexeNc"
-        ]
-    },
-    {
-        "path": "dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
-        "name": "UnPackMe_vfp&exeNc6.20.intensityii+encrypt.compression.exe",
-        "scan": {
-            "PE": "32 bit",
-            "DLL": "no",
-            "Packed": "yes",
-            "Anti-Debug": "no (yes)",
-            "GUI Program": "yes",
-            "Console Program": "no (yes)",
-            "mutex": "no",
-            "contains base64": "yes",
-            "PEiD": [
-                "vfpexeNc_v600_Wang_JianGuo",
-                "vfpexeNc_v600_Wang_JianGuo_additional",
-                "yodas_Protector_v1033_dllocx_Ashkbiz_Danehkar_h",
-                "ACProtect_V14X_risco_additional"
-            ],
-            "AntiDebug": []
-        },
-        "detectable": true,
         "labels": [
             "vfpexeNc",
             "vfpexeNc"
@@ -125,24 +94,55 @@
         ]
     },
     {
-        "path": "dataset/UnpackMe/UnpackMe (FoxPro)/KONxiSE 1.0/KONxiSE 1.0",
-        "name": "UnPackMe_KONxiSE 1.0.exe",
+        "path": "dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
+        "name": "UnPackMe_vfp&exeNc6.20.intensityii+encrypt.compression.exe",
         "scan": {
             "PE": "32 bit",
             "DLL": "no",
-            "Packed": "no",
-            "Anti-Debug": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
             "GUI Program": "yes",
-            "Console Program": "no",
+            "Console Program": "no (yes)",
             "mutex": "no",
             "contains base64": "yes",
-            "PEiD": [],
+            "PEiD": [
+                "vfpexeNc_v600_Wang_JianGuo",
+                "vfpexeNc_v600_Wang_JianGuo_additional",
+                "yodas_Protector_v1033_dllocx_Ashkbiz_Danehkar_h",
+                "ACProtect_V14X_risco_additional"
+            ],
             "AntiDebug": []
         },
-        "detectable": false,
+        "detectable": true,
         "labels": [
-            "KONxiSE",
-            "KONxiSE"
+            "vfpexeNc",
+            "vfpexeNc"
+        ]
+    },
+    {
+        "path": "dataset/UnpackMe/UnpackMe (FoxPro)/vfp&exeNc 6.20/vfp&exeNc 6.20",
+        "name": "UnPackMe_vfp&exeNc6.20.intensityi.exe",
+        "scan": {
+            "PE": "32 bit",
+            "DLL": "no",
+            "Packed": "yes",
+            "Anti-Debug": "no (yes)",
+            "GUI Program": "yes",
+            "Console Program": "no (yes)",
+            "mutex": "no",
+            "contains base64": "yes",
+            "PEiD": [
+                "vfpexeNc_v600_Wang_JianGuo",
+                "vfpexeNc_v600_Wang_JianGuo_additional",
+                "yodas_Protector_v1033_dllocx_Ashkbiz_Danehkar_h",
+                "ACProtect_V14X_risco_additional"
+            ],
+            "AntiDebug": []
+        },
+        "detectable": true,
+        "labels": [
+            "vfpexeNc",
+            "vfpexeNc"
         ]
     }
 ]

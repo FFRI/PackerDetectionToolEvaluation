@@ -1,0 +1,30 @@
+[
+    {
+        "src_file": "./dataset/PackingData/Notpacked/avs_check_x86.exe",
+        "dst_dir": "./dataset/PackingData/PackingData/UPX/"
+    },
+    {
+        "src_file": "./dataset/PackingData/Notpacked/folrep.exe",
+        "dst_dir": "./dataset/PackingData/PackingData/UPX/"
+    },
+    {
+        "src_file": "./dataset/PackingData/Notpacked/UnlockerPortable.exe",
+        "dst_dir": "./dataset/PackingData/PackingData/NSIS/"
+    },
+    {
+        "src_file": "./dataset/PackingData/Notpacked/idafree50.exe",
+        "dst_dir": "./dataset/PackingData/PackingData/Inno/"
+    },
+    {
+        "src_file": "./dataset/PackingData/Notpacked/HTTrackPortable.exe",
+        "dst_dir": "./dataset/PackingData/PackingData/NSIS/"
+    },
+    {
+        "src_file": "./dataset/PackingData/Notpacked/Uninstall.exe",
+        "dst_dir": "./dataset/PackingData/PackingData/NSIS/"
+    },
+    {
+        "src_file": "./dataset/PackingData/Notpacked/aatools_setup.exe",
+        "dst_dir": "./dataset/PackingData/PackingData/Wise/"
+    }
+]

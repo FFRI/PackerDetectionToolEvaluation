@@ -3,7 +3,6 @@ Author of this code work, Tsubasa Kuwabara. c FFRI Security, Inc. 2020
 """
 
 from pypeid import PEiDScanner
-import os
 import json
 from util import *
 
@@ -33,7 +32,6 @@ def is_pypeid_rcelab_detectable(path, result):
         label = "ZProtect"
     label = label.replace("Yoda ", "yodas_")
 
-    json_data = {}
     with open("rce_label_convert.json", "r") as f:
         json_data = json.load(f)
 
